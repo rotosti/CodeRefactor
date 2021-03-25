@@ -1,3 +1,16 @@
+Author: Tomasz Siemion
+Project: Homework 1 - Code Refactor
+Description: Improved the readability of the HTML and CSS files.
+
+1. Corrected any link errors so website functions properly.
+2. Updated tags to provide semantic HTML document flow.
+3. Cleaned up redundant CSS code and improved order and readability.
+
+
+LINK: https://rotosti.github.io/Homework1-CodeRefactor/#social-media-marketing
+
+
+<!-- Oirignal README.md /  UNMODIFIED FROM THIS POINT TO END OF DOCUMENT-->
 # 01 HTML, CSS, and Git: Code Refactor
 
 ## Your Task
