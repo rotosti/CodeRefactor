@@ -6,8 +6,35 @@ Description: Improved the readability of the HTML and CSS files.
 2. Updated tags to provide semantic HTML document flow.
 3. Cleaned up redundant CSS code and improved order and readability.
 
+Refactors completed (summary):
+
+HTML - (index.html)
+  1. Updated title text from document to "Horiseon Social Solution Services"
+  2. Updated appropriate div tags to header tags
+  3. Updated appropriate div tags to nav tags
+  4. Updated "hero" class div to img tag and nested between figure tags - done for semantic flow of document
+  5. Updated all image tags in HTML document to contain alt text
+  6. Updated appropriate div tags to main tags
+  7. Updated appropriate div tags to section tags
+  8. Linked nav bar link "Search Engine Optimization" to jump to correct part of webpage when clicked
+  9. Updated unique class names to reusable classes
+  10. Updated appropriate div tags to aside tags
+  11. Updated appropriate div tag to footer tags
+
+CSS - (./assets/css/style.css)
+  1. Commented all selectors
+  2. Updated any selector which had [.header div] to [.header nav] to correctly link updated HTML code
+  3. Removed redundant CSS and updated to reusable classes
+  4. Relocated some selectors in CSS file to be closer to parent and to follow flow of HTML code
 
 LINK: https://rotosti.github.io/Homework1-CodeRefactor/#social-media-marketing
+
+Worked with peers on portions of project to identify improvements to HTML and CSS code.
+Thanks to:
+  1. Zack Duty
+  2. Karina Ayala
+  3. Julius Allen
+  4. Levi Kane
 
 
 <!-- Oirignal README.md /  UNMODIFIED FROM THIS POINT TO END OF DOCUMENT-->
