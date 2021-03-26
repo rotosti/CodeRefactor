@@ -30,6 +30,7 @@ body {
 }
 
 /* header class child nav selector */
+/* [.header div] was changed to [.header nav] to select correct HTML elements from updated HTML  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,11 +40,13 @@ body {
 }
 
 /* header class's nav's child h1 selector */
+/* [.header div ul] was changed to [.header nav ul] to select correct HTML elements from updated HTML  */
 .header nav ul {
     list-style-type: none;
 }
 
 /* nav bar list items */
+/* [.header div ul li] was changed to [.header nav ul li] to select correct HTML elements from updated HTML  */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -91,7 +94,13 @@ CSS properties. */
     margin-left: 20px;
 }
 
+/* The following 3 selectors were moved closer to the content selector to follow flow of the HTML parent and child 
+relationships. */
+
 /* content section data selector */
+/* This CSS selector had 3 different class names, was consolidated to 1 since others were modifying the same properties and redundant.
+[.search-engine-optimization], [.online-reputation-management], and [.social-media-marketing] were changed to
+[.content-section-data] */
 .content-section-data {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,11 +111,17 @@ CSS properties. */
 }
 
 /* content section data child img selector */
+/* This CSS selector was updated and cosolidated because the unique classes were consolidated above. Eliminated redundancy.
+[.search-engine-optimization], [.online-reputation-management], and [.social-media-marketing] were changed to
+[.content-section-data] */
 .content-section-data img {
     max-height: 200px;
 }
 
 /* content section data child h2 selector */
+/* This CSS selector was updated and cosolidated because the unique classes were consolidated above. Eliminated redundancy.
+[.search-engine-optimization], [.online-reputation-management], and [.social-media-marketing] were changed to
+[.content-section-data] */
 .content-section-data h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -125,18 +140,24 @@ CSS properties. */
 }
 
 /* aside class benefit data selector */
+/* This CSS selector had 3 different class names, was consolidated to 1 since others were modifying the same properties and redundant.
+[.benefit-lead], [.benefit-brand], and [.benefit-cost] were changed to [.benefit-data] */
 .benefit-data {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* benefit data child h3 selector */
+/* This CSS selector was updated and cosolidated because the unique classes were consolidated above. Eliminated redundancy.
+[.benefit-lead], [.benefit-brand], and [.benefit-cost] were changed to [.benefit-data] */
 .benefit-data h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* benefit data child img selector */
+/* This CSS selector was updated and cosolidated because the unique classes were consolidated above. Eliminated redundancy.
+[.benefit-lead], [.benefit-brand], and [.benefit-cost] were changed to [.benefit-data] */
 .benefit-data img {
     display: block;
     margin: 10px auto;

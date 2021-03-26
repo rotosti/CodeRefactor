@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Created title with company name -->
+    <!-- Updated title text with company name -->
     <title>Horiseon Social Solution Services</title>
 </head>
 
@@ -33,6 +33,8 @@
     <main class="content">
         <!-- Div tags changed to section tags for semantics, information sections are part of main details of company page -->
         <!-- Missing ID attribute to correctly link this section of website from navigation bar -->
+        <!-- Class was modified to content-section-data due to this section and the following 2 sections having the same CSS properties, but unique
+        class names.  Changed to one class for reusability. -->
         <section id="search-engine-optimization" class="content-section-data">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A notebook showing Search Engine Optimization specializations."/>
             <h2>Search Engine Optimization</h2>
@@ -58,6 +60,8 @@
     </main>
     <!-- Side section of data, updated from div to aside to follow semantics; alt text updated on images-->
     <aside class="benefits">
+        <!-- Class was changed to benefit-data for this section and the 2 following.  The CSS properties were identical, changed so 
+        the section reuse the same CSS code. -->
         <section class="benefit-data">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="An image of a gear generating money."/>
